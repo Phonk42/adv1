@@ -1,0 +1,11 @@
+<div class="main-block">
+    <div class="bad-words-wrap">
+        <p>Bad words:</p>
+        <p class="add-text">{{ bannedWords }}</p>
+    </div>
+    <input type="text" class="word-here" [(ngModel)]="wordToAdd" placeholder="word-here...">
+    <button class="bnt add" (click)="addWords()">Add</button>
+    <button class="bnt reset" (click)="resetWords()">Reset</button>
+    <input type="text" class="text-here" [(ngModel)]="textToCensor" placeholder="text-here...">
+    <button class="cenzor" (click)="censorText()">Censor</button>
+</div>

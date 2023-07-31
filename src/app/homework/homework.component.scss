@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-block {
+    background-color: #efefef;
+    border: 3px solid lightgray;
+    width: 600px;
+    margin: 200px auto;
+    padding-bottom: 10px;
+    border-radius: 7px;
+}
+
+.bad-words-wrap {
+    display: flex;
+    font-size: 20px;
+    padding: 0 11px;
+}
+
+.add-text {
+    color: red;
+    margin-left: 5px;
+}
+
+.word-here {
+    width: 66%;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+.bnt {
+    width: 75px;
+    height: 35px;
+    margin-right: 8px;
+}
+
+.text-here {
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 94%;
+    height: 35px;
+    padding-bottom: 35px;
+}
+
+.cenzor {
+    width: 96.5%;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+input,
+button {
+    font-weight: bold;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+.cenzor {
+    background-color: limegreen;
+    color: white;
+    border: none;
+}
+
+.add {
+    border: none;
+    background-color: gold;
+}
+
+.reset {
+    border: none;
+    background-color: #dd4c4c;
+    color: white;
+}
